@@ -39,7 +39,12 @@ public class AndroidMeActivity extends AppCompatActivity {
 
             // Set the image of head
             headFragment.setImageIds(AndroidImageAssets.getHeads());
-            headFragment.setListIndex(1);
+
+            // Get the correct index to access in the array of head images from the intent
+            // Set the default value to 0
+            int headIndex = getIntent().getIntExtra("headIndex", 0);
+            headFragment.setListIndex(headIndex);
+
 
             // Use a FragmentManager and transaction to add the fragment to the screen
             FragmentManager fragmentManager = getSupportFragmentManager();
@@ -47,8 +52,6 @@ public class AndroidMeActivity extends AppCompatActivity {
             // Fragment transaction for head
             fragmentManager.beginTransaction()
                     .add(R.id.head_container, headFragment)
-                    //.add(R.id.body_container, bodyFragment)
-                    //.add(R.id.leg_container, legFragment)
                     .commit();
 
             //Create new object of BodyPartFragment for main body
@@ -56,7 +59,8 @@ public class AndroidMeActivity extends AppCompatActivity {
 
             // Set the image of body
             bodyFragment.setImageIds(AndroidImageAssets.getBodies());
-            bodyFragment.setListIndex(1);
+            int bodyIndex = getIntent().getIntExtra("bodyIndex", 0);
+            bodyFragment.setListIndex(bodyIndex);
 
             // Fragment transaction for body
             fragmentManager.beginTransaction()
@@ -68,7 +72,8 @@ public class AndroidMeActivity extends AppCompatActivity {
 
             // Set the image of legs
             legFragment.setImageIds(AndroidImageAssets.getLegs());
-            legFragment.setListIndex(1);
+            int legIndex = getIntent().getIntExtra("legIndex", 0);
+            legFragment.setListIndex(legIndex);
 
             // Fragment transaction for legs
             fragmentManager.beginTransaction()

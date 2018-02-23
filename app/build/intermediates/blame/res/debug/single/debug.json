@@ -756,6 +756,10 @@
         "source": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\src\\main\\res\\drawable\\head10.png"
     },
     {
+        "merged": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\kench\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\1d1cdece96de9a1d170c5a82d24893e3\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
@@ -1212,6 +1216,10 @@
         "source": "C:\\Users\\kench\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.1.0.aar\\1d1cdece96de9a1d170c5a82d24893e3\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_master_list.xml.flat",
+        "source": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\src\\main\\res\\layout\\fragment_master_list.xml"
+    },
+    {
         "merged": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_head1.png.flat",
         "source": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\src\\main\\res\\drawable\\head1.png"
     },
@@ -1482,6 +1490,10 @@
     {
         "merged": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_legs12.png.flat",
         "source": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\src\\main\\res\\drawable\\legs12.png"
+    },
+    {
+        "merged": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_activity_main.xml.flat",
+        "source": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\src\\main\\res\\layout-sw600dp\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\kench\\Desktop\\GitHub\\Udacity_Android_Me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
